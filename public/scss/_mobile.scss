@@ -1,0 +1,161 @@
+@media (max-width: 375px) {
+  .desktop,
+  .tablet {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  main {
+    .pattern-rings {
+      top: 7.75rem;
+      left: -21.38rem;
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.071rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.25rem;
+
+    h3 {
+      font-size: 1.5rem;
+      letter-spacing: -0.02081rem;
+      padding-bottom: 1.25rem;
+      z-index: 2;
+    }
+
+    ul {
+      --gap: 1.25rem;
+    }
+  }
+
+  .hero {
+    justify-content: center;
+    align-items: center;
+    div {
+      margin-top: 20.69rem;
+      text-align: center;
+      h1 {
+        margin-bottom: 2.69rem;
+      }
+
+      p {
+        padding-bottom: 1.5rem;
+        width: 21.4375rem;
+      }
+    }
+
+    div {
+      img {
+        width: 10.875rem;
+        height: 23.9375rem;
+        flex-shrink: 0;
+        position: absolute;
+        right: 6.25rem;
+      }
+    }
+  }
+
+  .skills {
+    align-items: center;
+    margin: 5.75rem 0 5rem 0;
+
+    hr {
+      width: 21.4375rem;
+      height: 0.0625rem;
+      flex-shrink: 0;
+      margin: auto;
+    }
+    .wrapper {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.5rem;
+
+      .content-text {
+        padding-bottom: 1.5rem;
+        text-align: center;
+      }
+    }
+
+    .wrapper > * {
+      flex: 1 1 0;
+    }
+  }
+
+  .project {
+    max-width: 21.4375rem;
+    margin: auto;
+    .title {
+      margin-bottom: 2.5rem;
+    }
+
+    .project-container {
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 2.5rem;
+
+      .project-content {
+        .image {
+          width: 21.5625rem;
+          height: 15.8125rem;
+        }
+
+        .stack {
+          padding-bottom: 1.25rem;
+        }
+      }
+
+      .project-container > * {
+        flex: 1 1 21.5625rem;
+      }
+    }
+  }
+
+  footer {
+    margin-top: 5rem;
+    .footer-wrapper {
+      padding: 3.75rem 0 3.44rem 0;
+      .footer-text {
+        align-self: center;
+        p {
+          width: 21.4375rem;
+        }
+      }
+
+      .footer-pattern-rings {
+        position: absolute;
+        top: 288.44rem;
+        left: -22.44rem;
+      }
+      .footer-form {
+        form {
+          width: 21.4375rem;
+        }
+      }
+    }
+
+    .footer-nav {
+      hr {
+        width: 21.4375rem;
+        height: 0.0625rem;
+        flex-shrink: 0;
+        margin: auto;
+      }
+    }
+  }
+}
