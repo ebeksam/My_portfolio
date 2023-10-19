@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   %margin {
     max-width: 44.125rem;
   }
@@ -67,11 +67,6 @@
     .wrapper > * {
       flex: 1 1 21.5625rem;
     }
-
-    .skill-pattern-rings {
-      top: 65.44rem;
-      right: -20.75rem;
-    }
   }
 
   .project {
@@ -116,6 +111,7 @@
     }
     .footer-nav {
       padding-bottom: 2.5rem;
+      max-width: 100%;
     }
   }
 }

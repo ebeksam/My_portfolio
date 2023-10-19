@@ -1,7 +1,4 @@
-@media (max-width: 375px) {
-  body {
-    max-width: 23.4375rem;
-  }
+@media (max-width: 500px) {
   .desktop,
   .tablet {
     display: none;
@@ -97,11 +94,6 @@
 
     .wrapper > * {
       flex: 1 1 0;
-    }
-
-    .skill-pattern-rings {
-      top: 71.44rem;
-      right: -21.5rem;
     }
   }
 

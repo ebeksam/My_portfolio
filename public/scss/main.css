@@ -186,14 +186,6 @@ main .pattern-rings img {
 .skills .wrapper > * {
   flex: 1 1 21.5625rem;
 }
-.skills .skill-pattern-rings {
-  position: absolute;
-  top: 67.31rem;
-  right: -14.94rem;
-}
-.skills .skill-pattern-rings img {
-  max-width: 100%;
-}
 
 .project .title {
   display: flex;
@@ -300,7 +292,7 @@ footer .footer-nav {
   padding-bottom: 5.75rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   header, main, footer .footer-nav {
     max-width: 44.125rem;
   }
@@ -351,10 +343,6 @@ footer .footer-nav {
   .skills .wrapper > * {
     flex: 1 1 21.5625rem;
   }
-  .skills .skill-pattern-rings {
-    top: 65.44rem;
-    right: -20.75rem;
-  }
   .project .project-container .project-content .image {
     width: 21.5625rem;
     height: 15.8125rem;
@@ -384,12 +372,10 @@ footer .footer-nav {
   }
   footer .footer-nav {
     padding-bottom: 2.5rem;
+    max-width: 100%;
   }
 }
-@media (max-width: 375px) {
-  body {
-    max-width: 23.4375rem;
-  }
+@media (max-width: 500px) {
   .desktop,
   .tablet {
     display: none;
@@ -468,10 +454,6 @@ footer .footer-nav {
   }
   .skills .wrapper > * {
     flex: 1 1 0;
-  }
-  .skills .skill-pattern-rings {
-    top: 71.44rem;
-    right: -21.5rem;
   }
   hr {
     width: 21.4375rem;
