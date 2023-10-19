@@ -47,7 +47,8 @@ body {
   background-color: $black;
   font-family: "Space Grotesk", sans-serif;
   color: #fff;
-  max-width: 100%;
+  max-width: 90rem;
+  overflow-x: hidden;
 }
 
 img,
@@ -143,6 +144,7 @@ nav {
 
       a {
         svg {
+          max-width: 100%;
           path:hover {
             fill: $light-green;
           }
@@ -160,19 +162,23 @@ main {
     top: 8.31rem;
     left: -6.25rem;
     z-index: -2;
-  }
-
-  .pattern-circle {
-    position: absolute;
-    top: 32.56rem;
-    right: 34.06rem;
-    z-index: 2;
-    width: 100%;
 
     img {
       max-width: 100%;
     }
   }
+
+  // .pattern-circle {
+  //   position: absolute;
+  //   top: 32.56rem;
+  //   right: 34.06rem;
+  //   z-index: 2;
+  //   width: 100%;
+
+  //   img {
+  //     max-width: 100%;
+  //   }
+  // }
 }
 
 .hero {
@@ -226,6 +232,15 @@ main {
 
   .wrapper > * {
     flex: 1 1 21.5625rem;
+  }
+
+  .skill-pattern-rings {
+    position: absolute;
+    top: 67.31rem;
+    right: -14.94rem;
+    img {
+      max-width: 100%;
+    }
   }
 }
 
@@ -325,6 +340,9 @@ footer {
       position: absolute;
       top: 220.25rem;
       left: -12.81rem;
+      img {
+        max-width: 100%;
+      }
     }
     .footer-form {
       form {

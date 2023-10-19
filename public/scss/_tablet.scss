@@ -58,10 +58,6 @@
   .skills {
     margin: 3.75rem 0 6.25rem 0;
 
-    .skills-pattern-rings {
-      top: 65.44rem;
-      right: -20.75rem;
-    }
     .wrapper {
       .content-text {
         padding-bottom: 3.25rem;
@@ -70,6 +66,11 @@
 
     .wrapper > * {
       flex: 1 1 21.5625rem;
+    }
+
+    .skill-pattern-rings {
+      top: 65.44rem;
+      right: -20.75rem;
     }
   }
 
@@ -109,7 +110,7 @@
       }
 
       .footer-pattern-rings {
-        top: 206.5rem;
+        top: 209.5rem;
         left: -23.81rem;
       }
     }

@@ -40,7 +40,8 @@ body {
   background-color: #151515;
   font-family: "Space Grotesk", sans-serif;
   color: #fff;
-  max-width: 100%;
+  max-width: 90rem;
+  overflow-x: hidden;
 }
 
 img,
@@ -126,6 +127,9 @@ nav ul li {
 nav ul li a svg {
   transition: color 0.5s;
 }
+nav ul li a svg {
+  max-width: 100%;
+}
 nav ul li a svg path:hover {
   fill: #4ee1a0;
 }
@@ -136,14 +140,7 @@ main .pattern-rings {
   left: -6.25rem;
   z-index: -2;
 }
-main .pattern-circle {
-  position: absolute;
-  top: 32.56rem;
-  right: 34.06rem;
-  z-index: 2;
-  width: 100%;
-}
-main .pattern-circle img {
+main .pattern-rings img {
   max-width: 100%;
 }
 
@@ -188,6 +185,14 @@ main .pattern-circle img {
 }
 .skills .wrapper > * {
   flex: 1 1 21.5625rem;
+}
+.skills .skill-pattern-rings {
+  position: absolute;
+  top: 67.31rem;
+  right: -14.94rem;
+}
+.skills .skill-pattern-rings img {
+  max-width: 100%;
 }
 
 .project .title {
@@ -272,6 +277,9 @@ footer .footer-wrapper .footer-pattern-rings {
   top: 220.25rem;
   left: -12.81rem;
 }
+footer .footer-wrapper .footer-pattern-rings img {
+  max-width: 100%;
+}
 footer .footer-wrapper .footer-form form {
   width: 27.8125rem;
 }
@@ -337,15 +345,15 @@ footer .footer-nav {
   .skills {
     margin: 3.75rem 0 6.25rem 0;
   }
-  .skills .skills-pattern-rings {
-    top: 65.44rem;
-    right: -20.75rem;
-  }
   .skills .wrapper .content-text {
     padding-bottom: 3.25rem;
   }
   .skills .wrapper > * {
     flex: 1 1 21.5625rem;
+  }
+  .skills .skill-pattern-rings {
+    top: 65.44rem;
+    right: -20.75rem;
   }
   .project .project-container .project-content .image {
     width: 21.5625rem;
@@ -371,7 +379,7 @@ footer .footer-nav {
     padding-bottom: 3rem;
   }
   footer .footer-wrapper .footer-pattern-rings {
-    top: 206.5rem;
+    top: 209.5rem;
     left: -23.81rem;
   }
   footer .footer-nav {
@@ -379,6 +387,9 @@ footer .footer-nav {
   }
 }
 @media (max-width: 375px) {
+  body {
+    max-width: 23.4375rem;
+  }
   .desktop,
   .tablet {
     display: none;
@@ -437,7 +448,7 @@ footer .footer-nav {
   }
   .skills {
     align-items: center;
-    margin: 5.75rem 0 5rem 0;
+    margin: 5rem 0 1rem 0;
   }
   .skills hr {
     width: 21.4375rem;
@@ -449,7 +460,7 @@ footer .footer-nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
   }
   .skills .wrapper .content-text {
     padding-bottom: 1.5rem;
@@ -458,12 +469,22 @@ footer .footer-nav {
   .skills .wrapper > * {
     flex: 1 1 0;
   }
+  .skills .skill-pattern-rings {
+    top: 71.44rem;
+    right: -21.5rem;
+  }
+  hr {
+    width: 21.4375rem;
+    height: 0.0625rem;
+    flex-shrink: 0;
+    margin: auto;
+  }
   .project {
     max-width: 21.4375rem;
     margin: auto;
   }
   .project .title {
-    margin-bottom: 2.5rem;
+    margin: 5rem 0 2.5rem 0;
   }
   .project .project-container {
     flex-direction: column;

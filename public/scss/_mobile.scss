@@ -1,4 +1,7 @@
 @media (max-width: 375px) {
+  body {
+    max-width: 23.4375rem;
+  }
   .desktop,
   .tablet {
     display: none;
@@ -72,7 +75,7 @@
 
   .skills {
     align-items: center;
-    margin: 5.75rem 0 5rem 0;
+    margin: 5rem 0 1rem 0;
 
     hr {
       width: 21.4375rem;
@@ -84,7 +87,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 4.5rem;
+      margin-top: 2.5rem;
 
       .content-text {
         padding-bottom: 1.5rem;
@@ -95,13 +98,25 @@
     .wrapper > * {
       flex: 1 1 0;
     }
+
+    .skill-pattern-rings {
+      top: 71.44rem;
+      right: -21.5rem;
+    }
+  }
+
+  hr {
+    width: 21.4375rem;
+    height: 0.0625rem;
+    flex-shrink: 0;
+    margin: auto;
   }
 
   .project {
     max-width: 21.4375rem;
     margin: auto;
     .title {
-      margin-bottom: 2.5rem;
+      margin: 5rem 0 2.5rem 0;
     }
 
     .project-container {
